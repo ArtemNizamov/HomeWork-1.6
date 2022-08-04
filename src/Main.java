@@ -46,7 +46,7 @@ public class Main {
         }
         System.out.println("Максимальная сумма трат за день составила " + max + " рублей");
 
-        int averageSum = 0;
+        float averageSum = 0;
         for (int i = 0; i < money.length; i++) {
             averageSum += money[i];
         }
